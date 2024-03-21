@@ -2,8 +2,8 @@ import praw, random
 
 # variables
 user_agent = 'Comment Extraction (by u/jeffasante)'
-client_id = 've8faw4h86XMYGezijlPvQ'
-client_secret = '04B6o4dKeL-Jl2zSHyLfMMuF5iLXhQ'
+client_id = 'INSERT YOUR [client_id]'
+client_secret = 'INSERT YOUR [client_secret]'
 
 # Instantiate the Reddit API client with your credentials
 reddit = praw.Reddit(client_id=client_id,
