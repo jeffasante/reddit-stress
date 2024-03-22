@@ -9,8 +9,8 @@ client_secret = 'INSERT YOUR [client_secret]'
 reddit = praw.Reddit(client_id=client_id,
                     client_secret=client_secret, 
                     user_agent=user_agent,
-                    password="0244760285",
-                    username="jeffasante")
+                    password=[your_reddit_password],
+                    username=[your_reddit_username])
 
 
 def fetch_reddit(reddit=reddit):
